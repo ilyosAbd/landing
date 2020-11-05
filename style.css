@@ -2,18 +2,6 @@ body {
   overflow-x: hidden;
 }
 
-.button1 {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  border: none;
-  border-radius: 20px 20px 20px 20px;
-  margin: 0 0 0 15px;
-  text-align: center;
-  text-decoration: none;
-  background-color: teal;
-  color: white;
-  padding: 15px 18px;
-}
-
 .button2 {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   border: none;
@@ -23,11 +11,14 @@ body {
   color: white;
 }
 
+.custom-btn {
+  padding-left: 20px !important;
+}
+
 li a:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   background-color: teal;
   color: white;
-  border-radius: 10px 20px 10px 10px;
 }
 
 .footwear {
@@ -46,6 +37,10 @@ hr.style13 {
 footer {
   background-color: #343a40;;
   color: white;
+}
+
+.footer2 {
+  text-align: center;
 }
 
 
