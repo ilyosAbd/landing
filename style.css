@@ -2,24 +2,7 @@ body {
   overflow-x: hidden;
 }
 
-.button2 {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  background-color: teal;
-  color: white;
-}
-
-.custom-btn {
-  padding-left: 20px !important;
-}
-
-li a:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  background-color: teal;
-  color: white;
-}
+/* Footwear section */
 
 .footwear {
   color: silver;
@@ -28,11 +11,15 @@ li a:hover {
 
 }
 
+/* <hr> style */
+
 hr.style13 {
 	height: 10px;
 	border: 0;
 	box-shadow: 0 10px 10px -10px #8c8b8b inset;
 }
+
+/* Footer section */
 
 footer {
   background-color: #343a40;;
